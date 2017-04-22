@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		66B4B98E1EA9AF5000F01334 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66B4B98D1EA9AF5000F01334 /* main.cpp */; };
+		66B4B99A1EA9AFD800F01334 /* NitroUnitTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66B4B9941EA9AFD800F01334 /* NitroUnitTest.cpp */; };
+		66B4B99B1EA9AFD800F01334 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66B4B9961EA9AFD800F01334 /* Point.cpp */; };
+		66B4B99C1EA9AFD800F01334 /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66B4B9981EA9AFD800F01334 /* Rectangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		66B4B98A1EA9AF5000F01334 /* NitroCppTest-ConDaly */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NitroCppTest-ConDaly"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B4B98D1EA9AF5000F01334 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		66B4B9941EA9AFD800F01334 /* NitroUnitTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NitroUnitTest.cpp; path = "NitroCppTest-ConDaly/NitroUnitTest.cpp"; sourceTree = "<group>"; };
+		66B4B9951EA9AFD800F01334 /* NitroUnitTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = NitroUnitTest.hpp; path = "NitroCppTest-ConDaly/NitroUnitTest.hpp"; sourceTree = "<group>"; };
+		66B4B9961EA9AFD800F01334 /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Point.cpp; path = "NitroCppTest-ConDaly/Point.cpp"; sourceTree = "<group>"; };
+		66B4B9971EA9AFD800F01334 /* Point.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Point.hpp; path = "NitroCppTest-ConDaly/Point.hpp"; sourceTree = "<group>"; };
+		66B4B9981EA9AFD800F01334 /* Rectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rectangle.cpp; path = "NitroCppTest-ConDaly/Rectangle.cpp"; sourceTree = "<group>"; };
+		66B4B9991EA9AFD800F01334 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rectangle.h; path = "NitroCppTest-ConDaly/Rectangle.h"; sourceTree = "<group>"; };
+		66B4B99D1EA9AFEB00F01334 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = "NitroCppTest-ConDaly/data.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +51,13 @@
 		66B4B9811EA9AF5000F01334 = {
 			isa = PBXGroup;
 			children = (
+				66B4B99D1EA9AFEB00F01334 /* data.json */,
+				66B4B9941EA9AFD800F01334 /* NitroUnitTest.cpp */,
+				66B4B9951EA9AFD800F01334 /* NitroUnitTest.hpp */,
+				66B4B9961EA9AFD800F01334 /* Point.cpp */,
+				66B4B9971EA9AFD800F01334 /* Point.hpp */,
+				66B4B9981EA9AFD800F01334 /* Rectangle.cpp */,
+				66B4B9991EA9AFD800F01334 /* Rectangle.h */,
 				66B4B98C1EA9AF5000F01334 /* NitroCppTest-ConDaly */,
 				66B4B98B1EA9AF5000F01334 /* Products */,
 			);
@@ -119,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66B4B99B1EA9AFD800F01334 /* Point.cpp in Sources */,
+				66B4B99A1EA9AFD800F01334 /* NitroUnitTest.cpp in Sources */,
 				66B4B98E1EA9AF5000F01334 /* main.cpp in Sources */,
+				66B4B99C1EA9AFD800F01334 /* Rectangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +238,8 @@
 		66B4B9921EA9AF5000F01334 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/Cellar/boost/1.63.0/include;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/Cellar/boost/1.63.0/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -225,6 +247,8 @@
 		66B4B9931EA9AF5000F01334 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/Cellar/boost/1.63.0/include;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/Cellar/boost/1.63.0/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

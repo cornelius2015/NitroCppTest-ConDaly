@@ -61,6 +61,12 @@
             ReferencedContainer = "container:NitroCppTest-ConDaly.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "/Users/condaly/Development/NitroCppTest-ConDaly/NitroCppTest-ConDaly/data.json"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
