@@ -2,7 +2,7 @@
 
 1)Mac Version:
 
-Thhe code for this application was developed on an Apple Mac with Xcode version 8.3. I used the C++ Boost libraries to read in 
+The code for this application was developed on an Apple Mac with Xcode version 8.3. I used the C++ Boost libraries to read in 
 the JSON file. The boost libraries can be obtained from the following site:http://www.boost.org/users/history/version_1_63_0.html
 To build the project on Xcode simply download the project and files and udate the search path for the Boost header and lib directories by clicking on 
 the project name and "Build Settings"-> "Search Path". Locate the include and lib folders on your Mac and update them. For exampe I used 
