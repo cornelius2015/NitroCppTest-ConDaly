@@ -92,6 +92,8 @@ int main(int argc, char* argv[])
     {
         cout<<intersection.PrintRectangle()<<endl;
     }
-    
+    cout<<endl<<endl<<"Enter character and press return:"<<endl;
+    char ch;
+    cin>>ch;
     return 0;
 }
