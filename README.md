@@ -12,7 +12,7 @@ Aslo include the command line argument for the JSON file by clicking on the menu
 
 2) Windows Version using Visual Studio C++:
 
-This applicationcan will also run on Misrosoft Windows using Visual Studio C++. To do this simply create a "Console Project" and add the header and source files
+This application can will also run on Misrosoft Windows using Visual Studio C++. To do this simply create a "Console Application" and add the header and source files
 to the project. Add in the search path for the Boost header and lib files in the "Property Pages" "VC++ Directories" settings.
 Also in the "Precompiled Headers" section select "Not using precompiled headers". Also In the Debuggig section of the "Property Pages" 
 set the command line arguments to include "data.json". The application should now be ready to build successfully.
